@@ -1,5 +1,4 @@
 import { NgModule } from '@angular/core';
-// import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from "@angular/forms";
 import { BrowserModule } from "@angular/platform-browser";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
@@ -13,9 +12,8 @@ import { Grid1Component } from './pages/grid1/grid1.component';
 import { Grid2Component } from './pages/grid2/grid2.component';
 import { Grid3Component } from './pages/grid3/grid3.component';
 import { Grid4Component } from './pages/grid4/grid4.component';
-
-
 import { HttpClientModule } from "@angular/common/http";
+import "jquery";
 
 import { 
 	IgxAvatarModule,
